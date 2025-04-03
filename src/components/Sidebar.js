@@ -22,7 +22,7 @@ function Sidebar({ currentPage, setCurrentPage }) {
               <ul>
                 <li>
                   <a
-                    href="#home"
+                    href="home"
                     onClick={() => setCurrentPage("home")}
                     data-nav-section="home"
                     className={currentPage === "home" ? "active-link" : ""}

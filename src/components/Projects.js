@@ -129,7 +129,7 @@ function Projects() {
                   key={project.id}
                   className={`col-lg-4 col-md-6 mb-3 portfolio-item ${project.select.toLowerCase().replace(/ /g, "-")}`}
                 >
-                  <div className="dav-project" style={{ backgroundImage: `url(${project.image})` }}>
+                  <div className="dav-project object-fit-cover border rounded" style={{ backgroundImage: `url(${project.image})` }}>
                     <div className="desc">
                       <div className="con">
                         <h3><a href={project.link} target="_blank" rel="noopener noreferrer" className="projy-text">{project.title}</a></h3>
